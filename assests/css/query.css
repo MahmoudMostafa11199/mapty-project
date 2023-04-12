@@ -1,0 +1,50 @@
+@media (max-width: 50em) {
+	body {
+	    display: block;
+	    background-color: #2d3439;
+	    padding-bottom: 100px;
+	}
+
+	.sidebar {
+		padding: 1rem;
+		padding-bottom: 5rem;
+	}
+}
+
+@media (max-width: 30em) {
+	.form {
+		grid-template-columns: 1fr;
+		height: auto;
+		padding: 1rem 1.2rem;
+	}
+
+	.form__row {
+		padding: .4rem;
+		background-color: #2d343929;
+	}
+
+	.workout {
+		grid-template-columns: repeat(2, 1fr);
+		padding-right: 0.5rem;
+	}
+
+	.workout__title {
+		font-size: 1.5rem;
+	}
+
+	.workout__icon {
+		font-size: 1.5rem;
+	}
+
+	.workout__value {
+		font-size: 1.3rem;
+	}
+
+	.workout__unit {
+		font-size: 1rem;
+	}
+
+	.reload {
+		/*font-size: 1.5rem;*/
+	}
+}
